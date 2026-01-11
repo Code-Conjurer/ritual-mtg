@@ -24,22 +24,23 @@
 		max-width: 300px;
 		background: var(--color-bg);
 		border: 2px solid var(--color-text);
-		padding: var(--space-sm);
+		padding: 3cqw;
 		box-sizing: border-box;
+		container-type: inline-size;
 	}
 
 	.card-inner {
 		display: flex;
 		flex-direction: column;
 		height: 100%;
-		gap: var(--space-sm);
+		gap: 2cqw;
 	}
 
 	.card-title {
 		flex-shrink: 0;
 		border: 1px solid var(--color-text);
-		padding: var(--space-xs) var(--space-sm);
-		font-size: var(--text-sm);
+		padding: 1cqw 2cqw;
+		font-size: 5cqw;
 		color: var(--color-text-bright);
 	}
 
@@ -52,16 +53,17 @@
 	.card-type {
 		flex-shrink: 0;
 		border: 1px solid var(--color-text);
-		padding: var(--space-xs) var(--space-sm);
-		font-size: var(--text-sm);
+		padding: 1cqw 2cqw;
+		font-size: 5cqw;
 		color: var(--color-text-bright);
 	}
 
 	.card-text {
 		flex: 4 1 0;
 		border: 1px solid var(--color-text);
-		padding: var(--space-sm);
-		font-size: var(--text-xs);
+		padding: 2cqw;
+		font-size: 4cqw;
+		line-height: 1.3;
 		color: var(--color-text);
 		overflow: hidden;
 	}

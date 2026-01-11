@@ -5,7 +5,7 @@
 
 <Section title="How to Play">
 	<p>
-		Each colour has two allies and two enemies:
+		Each color has two allies and two enemies:
 	</p>
 	<ul>
 		<li><span class='color-white'>White</span> is allied with <span class='color-green'>Green</span> and <span class='color-blue'>Blue</span>; its enemies are <span class='color-red'>Red</span> and <span class='color-black'>Black</span></li>
@@ -39,11 +39,15 @@
 		/>
 	</div>
 	<p> All players start with:</p>
-	<Card title='Pentagram Arc' type='Ritual - Arc' 
-	text="When you get this Ritual, put five time counters on it.
+	<div class="card-container">
+		<Card title='Pentagram Arc' type='Ritual - Arc' 
+		text="When you get this Ritual, put five time counters on it.
 
-	At the beginning of your upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
-	/>
+		At the beginning of your upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
+		/>
+		<Card title="Pentagram Grudge" type="Ritual" 
+		text="When a land you control enters, if it produces mana of a color thats an enemy of a color of mana that your lands can produce then it enters tapped; put X stun counters on that land, where X is one less then the number of enemy colors. (If you control a Forest and a Plains, and play a Swamp; then the Swamp enters tapped with 1 stun counter)"/>
+	</div>
 </Section>
 
 <style>

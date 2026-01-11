@@ -14,7 +14,7 @@
 
 <div class="page">
 	<header class="hero">
-		<h1 class="title">Ritual Mage</h1>
+		<h1 class="title">Ritual Magic TG</h1>
 		<nav class="nav">
 			{#each navItems as item}
 				<a class="nav-link" href={item.href}>{item.label}</a>
@@ -40,16 +40,16 @@
 
 	.hero {
 		text-align: center;
-		padding: var(--space-3xl) 0;
+		padding: var(--space-xl) 0;
 		border-bottom: 1px solid var(--color-border);
-		margin-bottom: var(--space-2xl);
+		margin-bottom: var(--space-md);
 	}
 
 	.title {
 		font-size: var(--text-4xl);
 		color: var(--color-text-bright);
-		margin-bottom: var(--space-xl);
-		letter-spacing: 0.1em;
+		margin-bottom: var(--space-md);
+		letter-spacing: 0.2em;
 		text-transform: uppercase;
 	}
 

@@ -21,9 +21,11 @@
 	.card {
 		aspect-ratio: 7 / 10;
 		width: 100%;
+		max-width: 300px;
 		background: var(--color-bg);
 		border: 2px solid var(--color-text);
 		padding: var(--space-sm);
+		box-sizing: border-box;
 	}
 
 	.card-inner {
@@ -34,6 +36,7 @@
 	}
 
 	.card-title {
+		flex-shrink: 0;
 		border: 1px solid var(--color-text);
 		padding: var(--space-xs) var(--space-sm);
 		font-size: var(--text-sm);
@@ -41,12 +44,13 @@
 	}
 
 	.card-art {
-		flex: 1;
+		flex: 5 1 0;
 		border: 1px solid var(--color-text);
 		min-height: 0;
 	}
 
 	.card-type {
+		flex-shrink: 0;
 		border: 1px solid var(--color-text);
 		padding: var(--space-xs) var(--space-sm);
 		font-size: var(--text-sm);
@@ -54,10 +58,11 @@
 	}
 
 	.card-text {
+		flex: 4 1 0;
 		border: 1px solid var(--color-text);
 		padding: var(--space-sm);
 		font-size: var(--text-xs);
 		color: var(--color-text);
-		min-height: 25%;
+		overflow: hidden;
 	}
 </style>

@@ -18,11 +18,8 @@
 
 <style>
 	.section-title {
-		font-size: var(--text-2xl);
+		font-size: var(--text-lg);
 		color: var(--color-text-bright);
-		margin-bottom: var(--space-md);
-		padding-bottom: var(--space-sm);
-		border-bottom: 1px solid var(--color-border);
 	}
 
 	.section-content :global(p) {

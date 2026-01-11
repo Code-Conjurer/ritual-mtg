@@ -5,7 +5,7 @@
 
 <Section title="How to Play">
 	<p>
-		Each colour has two allies and two enemies.
+		Each colour has two allies and two enemies:
 	</p>
 	<ul>
 		<li><span class='color-white'>White</span> is allied with <span class='color-green'>Green</span> and <span class='color-blue'>Blue</span>; its enemies are <span class='color-red'>Red</span> and <span class='color-black'>Black</span></li>
@@ -18,23 +18,32 @@
 		Ritual cards start face up in the command zone.
 	</p>
 	<p>
-		You own cards in your deck.
+		You own cards in your library.
 	</p>
 	<p>
 		The first player starts the game with:
 	</p>
 	<div class="card-container">
 		<Card title='Time Keepers Duty' type='Ritual' text=
-		'At the beginning of your end step, remove a time counter from each Arc Ritual; then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
+		'At the beginning of your upkeep, remove a time counter from each Arc Ritual; then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
+		
+		When you lose the game put this Ritual into the next players Command Zone.
 		'/>
-		<Card title='Time Keepers Embargo' type='Ritual' text="
-		Players don't draw their initial hands
+		<Card title='Time Keepers Embargo' type='Ritual' 
+			text="Players don't draw their initial hands and players cannot take Mulligans.
 
-		foo
-		"/>
+			Put seven time counters on this Ritual.
+			
+			At the beginning of your upkeep remove a time counter from this Ritual.
+			Players can't play cards or activate abilities as long as this Ritual has a time counter on it."
+		/>
 	</div>
-	
-		<!-- <Card title='title' type='ritual' text=''/> -->
+	<p> All players start with:</p>
+	<Card title='Pentagram Arc' type='Ritual - Arc' 
+	text="When you get this Ritual, put five time counters on it.
+
+	At the beginning of your upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
+	/>
 </Section>
 
 <style>
@@ -45,8 +54,8 @@
 
 	.card-container {
 		display: flex;
-		justify-content: space-between;
-		/* height: 400px; */
+		gap: 1rem;
+		padding-bottom: 1rem;
 	}
 
 	.color-white {

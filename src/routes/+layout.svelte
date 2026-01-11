@@ -8,7 +8,6 @@
 		{ label: 'How to Play', href: '/how-to-play' },
 		{ label: 'Deck Building', href: '/deck-building' },
 		{ label: 'Sample Cube', href: '/sample-cube' },
-		{ label: 'Fireplace', href: '/fireplace' }
 	];
 </script>
 

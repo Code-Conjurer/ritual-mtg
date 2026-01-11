@@ -24,7 +24,7 @@
 		max-width: 300px;
 		background: var(--color-bg);
 		border: 2px solid var(--color-text);
-		padding: 3cqw;
+		padding: var(--space-sm);
 		box-sizing: border-box;
 		container-type: inline-size;
 	}
@@ -33,14 +33,14 @@
 		display: flex;
 		flex-direction: column;
 		height: 100%;
-		gap: 2cqw;
+		gap: var(--space-xs);
 	}
 
 	.card-title {
 		flex-shrink: 0;
 		border: 1px solid var(--color-text);
-		padding: 1cqw 2cqw;
-		font-size: 5cqw;
+		padding: 2px 4px;
+		font-size: 14px;
 		color: var(--color-text-bright);
 	}
 
@@ -53,8 +53,8 @@
 	.card-type {
 		flex-shrink: 0;
 		border: 1px solid var(--color-text);
-		padding: 1cqw 2cqw;
-		font-size: 5cqw;
+		padding: 2px 4px;
+		font-size: 14px;
 		color: var(--color-text-bright);
 	}
 
@@ -66,5 +66,6 @@
 		line-height: 1.3;
 		color: var(--color-text);
 		overflow: hidden;
+		white-space: pre-line;
 	}
 </style>

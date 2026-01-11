@@ -30,7 +30,7 @@
 		When you lose the game put this Ritual into the next players Command Zone.
 		'/>
 		<Card title='Time Keepers Embargo' type='Ritual' 
-			text="Players don't draw their initial hands and players cannot take Mulligans.
+			text="Players don't draw their initial hands and players cannot take mulligans.
 
 			Put seven time counters on this Ritual.
 			
@@ -46,7 +46,7 @@
 		At the beginning of your upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
 		/>
 		<Card title="Pentagram Grudge" type="Ritual" 
-		text="When a land you control enters, if it produces mana of a color thats an enemy of a color of mana that your lands can produce then it enters tapped; put X stun counters on that land, where X is one less then the number of enemy colors. (If you control a Forest and a Plains, and play a Swamp; then the Swamp enters tapped with 1 stun counter)"/>
+		text="Lands you control enter tapped if they produce mana of a color that is an enemy of a color of mana that your lands can produce; when those lands enter put X stun counters on them, where X is one less then the number of enemy colors. (If you control a Forest and a Plains, and play a Swamp; then the Swamp enters tapped with 1 stun counter)"/>
 	</div>
 </Section>
 

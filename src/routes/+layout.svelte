@@ -21,7 +21,7 @@
 
 <div class="layout">
 	<header class="hero">
-		<a href="/" class="title-link">
+		<a href={resolve('/')} class="title-link">
 			<h1 class="title">Ritual Magic TG</h1>
 		</a>
 		<nav class="nav">

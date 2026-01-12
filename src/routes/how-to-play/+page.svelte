@@ -21,7 +21,10 @@
 		You own cards in your library.
 	</p>
 	<p>
-		The first player starts the game with:
+		The first player is the Time Keeper, if they lose the next player becomes the Time Keeper.
+	</p>
+	<p>
+		The Time Keeper starts the game with:
 	</p>
 	<div class="card-container">
 		<Card title='Time Keepers Duty' type='Ritual' text=
@@ -43,7 +46,7 @@
 		<Card title='Pentagram Arc' type='Ritual - Arc' 
 		text="When you get this Ritual, put five time counters on it.
 
-		At the beginning of your upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
+		At the beginning of the Time Keepers upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
 		/>
 		<Card title="Pentagram Grudge" type="Ritual" 
 		text="Lands you control enter tapped if they produce mana of a color that is an enemy of a color of mana that your lands can produce; when those lands enter put X stun counters on them, where X is one less then the number of enemy colors. (If you control a Forest and a Plains, and play a Swamp; then the Swamp enters tapped with 1 stun counter)"/>

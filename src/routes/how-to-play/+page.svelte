@@ -46,7 +46,7 @@
 		<Card title='Pentagram Arc' type='Ritual - Arc' 
 		text="Put five time counters on this Ritual.
 
-		At the beginning of your upkeep, look at the top X cards of your library, where X is the number of time counters on this Ritual. You may look at and reorder those cards as long as they remain on top of your library. If one of those cards would be revealed or leave your library, you may instead reveal it and have it enter its new zone as a basic land card of a type of your choice until you no longer own it."
+		At the beginning of your upkeep, look at the top X cards of your library, where X is the number of time counters on this Ritual. You may look at and reorder those cards as long as they remain on top of your library. If one of those cards would be revealed or leave your library, you may reveal as a basic land and have it enter its new zone as a basic land of your choice until you no longer own it."
 		/>
 		<Card title="Pentagram Grudge" type="Ritual" 
 		text="Lands you control enter the battlefield tapped if they can produce mana of a color that is an enemy of a color of mana produced by lands you control. When that land enters the battlefield, put X stun counters on it, where X is one less than the number of colors of mana it can produce that are enemies of colors of mana produced by lands you control."/>

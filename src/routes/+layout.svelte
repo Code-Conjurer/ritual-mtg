@@ -1,13 +1,14 @@
 <script lang="ts">
 	import '$lib/styles/theme.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import { resolve } from '$app/paths';
 
 	let { children } = $props();
 
 	const navItems = [
-		{ label: 'How to Play', href: '/how-to-play' },
-		{ label: 'Deck Building', href: '/deck-building' },
-		{ label: 'Sample Cube', href: '/sample-cube' },
+		{ label: 'How to Play', href: resolve('/how-to-play') },
+		{ label: 'Deck Building', href: resolve('/deck-building') },
+		{ label: 'Sample Cube', href: resolve('/sample-cube') },
 	];
 </script>
 

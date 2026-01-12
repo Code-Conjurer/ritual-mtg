@@ -1,14 +1,13 @@
 <script lang="ts">
 	import '$lib/styles/theme.css';
 	import favicon from '$lib/assets/favicon.svg';
-	import { base } from '$app/paths';
 
 	let { children } = $props();
 
 	const navItems = [
-		{ label: 'How to Play', href: `${base}/how-to-play` },
-		{ label: 'Deck Building', href: `${base}/deck-building` },
-		{ label: 'Sample Cube', href: `${base}/sample-cube` },
+		{ label: 'How to Play', href: '/how-to-play' },
+		{ label: 'Deck Building', href: '/deck-building' },
+		{ label: 'Sample Cube', href: '/sample-cube' },
 	];
 </script>
 
@@ -21,7 +20,7 @@
 
 <div class="layout">
 	<header class="hero">
-		<a href="{base}/" class="title-link">
+		<a href="/" class="title-link">
 			<h1 class="title">Ritual Magic TG</h1>
 		</a>
 		<nav class="nav">

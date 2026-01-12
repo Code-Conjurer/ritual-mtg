@@ -28,7 +28,7 @@
 	</p>
 	<div class="card-container">
 		<Card title='Time Keepers Duty' type='Ritual' text=
-		'At the beginning of your untap step, remove a time counter from each Arc Ritual; then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
+		'At the beginning of your untap step, remove a time counter from each Arc Ritual if it has no time counters then put 5 time counters on it instead; then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
 		
 		When you lose the game put this Ritual into the next players Command Zone.
 		'/>
@@ -41,7 +41,7 @@
 			Players can't play cards or activate abilities as long as this Ritual has a time counter on it."
 		/>
 	</div>
-	
+
 	<p> All players start with:</p>
 	<div class="card-container">
 		<Card title='Pentagram Arc' type='Ritual - Arc' 

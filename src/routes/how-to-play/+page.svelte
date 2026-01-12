@@ -44,7 +44,7 @@
 	<p> All players start with:</p>
 	<div class="card-container">
 		<Card title='Pentagram Arc' type='Ritual - Arc' 
-		text="When you get this Ritual, put five time counters on it.
+		text="Put five time counters on this Ritual.
 
 		At the beginning of your upkeep, look at the top X cards of your library, where X is the number of time counters on this Ritual. You may look at and reorder those cards as long as they remain on top of your library. If one of those cards would be revealed or leave your library, you may instead reveal it and have it enter its new zone as a basic land card of a type of your choice until you no longer own it."
 		/>

@@ -28,10 +28,9 @@
 	</p>
 	<div class="card-container">
 		<Card title='Time Keepers Duty' type='Ritual' text=
-		'At the beginning of your untap step, remove a time counter from each Arc Ritual if it has no time counters then put 5 time counters on it instead; then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
+		"At the beginning of your untap step, remove a time counter from each Arc Ritual in its owner's command zone. If an Arc Ritual has no time counters on it, put five time counters on it instead. Then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
 		
-		When you lose the game put this Ritual into the next players Command Zone.
-		'/>
+		When you lose the game put this Ritual into the next players Command Zone."/>
 		<Card title='Time Keepers Embargo' type='Ritual' 
 			text="Players don't draw their initial hands and players cannot take mulligans.
 
@@ -47,10 +46,10 @@
 		<Card title='Pentagram Arc' type='Ritual - Arc' 
 		text="When you get this Ritual, put five time counters on it.
 
-		At the beginning of the Time Keepers upkeep take the top X cards of your library and set them aside, where X is the number of time counters on this Ritual; you may look at and reorder cards these cards at any time; if you reveal, search, or they leave your library you may have them become basic lands of your choice while you own them (Cards set aside are still considered to be on top of your library)"
+		At the beginning of your upkeep, look at the top X cards of your library, where X is the number of time counters on this Ritual. You may look at and reorder those cards as long as they remain on top of your library. If one of those cards would be revealed or leave your library, you may instead reveal it and have it enter its new zone as a basic land card of a type of your choice until you no longer own it."
 		/>
 		<Card title="Pentagram Grudge" type="Ritual" 
-		text="Lands you control enter tapped if they produce mana of a color that is an enemy of a color of mana that your lands can produce; when those lands enter put X stun counters on them, where X is one less then the number of enemy colors. (If you control a Forest and a Plains, and play a Swamp; then the Swamp enters tapped with 1 stun counter)"/>
+		text="Lands you control enter the battlefield tapped if they can produce mana of a color that is an enemy of a color of mana produced by lands you control. When that land enters the battlefield, put X stun counters on it, where X is one less than the number of colors of mana it can produce that are enemies of colors of mana produced by lands you control."/>
 	</div>
 </Section>
 

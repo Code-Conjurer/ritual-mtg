@@ -63,7 +63,7 @@
 		border: 1px solid var(--color-text);
 		padding: 2cqw;
 		font-size: 4cqw;
-		line-height: 1.3;
+		line-height: 1;
 		color: var(--color-text);
 		overflow: hidden;
 		white-space: pre-line;

@@ -41,6 +41,7 @@
 			Players can't play cards or activate abilities as long as this Ritual has a time counter on it."
 		/>
 	</div>
+	
 	<p> All players start with:</p>
 	<div class="card-container">
 		<Card title='Pentagram Arc' type='Ritual - Arc' 

@@ -28,12 +28,12 @@
 	</p>
 	<div class="card-container">
 		<Card title='Time Keepers Embargo' type='Ritual' 
-			text="Players don't draw their initial hands and cannot take mulligans.
+			text="Players don't draw their opening hands and cannot take mulligans.
 
 			Put seven time counters on this Ritual.
 			
 			At the beginning of your upkeep remove a time counter from this Ritual.
-			
+
 			Players can't play cards or activate abilities as long as this Ritual has a time counter on it."
 		/>
 		<Card title='Time Keepers Duty' type='Ritual' text=

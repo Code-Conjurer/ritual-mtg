@@ -37,7 +37,7 @@
 			Players can't play cards or activate abilities as long as this Ritual has a time counter on it."
 		/>
 		<Card title='Time Keepers Duty' type='Ritual' text=
-		"At the beginning of your untap step, remove a time counter from each Arc Ritual in its owner's command zone. If an Arc Ritual has no time counters on it, put five time counters on it instead. Then each player moves the top X cards of their library to the next player from them, where X is the number of time counters on Arc Rituals in that players command zone 
+		"At the beginning of your untap step, remove a time counter from each Arc Ritual in its owner's command zone. If an Arc Ritual has no time counters on it, put five time counters on it instead. Then each player places the top X cards of their library onto the top of the library of the player next from them, where X is the number of time counters on Arc Rituals in that players command zone 
 		
 		When you lose the game put this Ritual into the next players Command Zone."/>
 	</div>
